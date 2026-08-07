@@ -1,6 +1,6 @@
 # San AndrAIs: The Slopinitive Edition
 
-San AndrAIs is a procedural city generator model randomizer for Grand Theft Auto SA singleplayer. That is, it will randomly generate a new Los Santos, San Fierro, and/or Las Venturas, including terrain and vegetation, while preserving full single player game playability.
+San AndrAIs is a procedural city generator model randomizer for Grand Theft Auto San Andreas singleplayer. That is, it will randomly generate a new Los Santos, San Fierro, and/or Las Venturas, including terrain and vegetation, while preserving full single player game playability.
 
 
 ## Requirements
