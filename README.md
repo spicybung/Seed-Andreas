@@ -8,5 +8,5 @@ Seed Andreas is a procedural city generator model randomizer for Grand Theft Aut
 + Legal copy of GTA: San Andreas
 + GTA SA v1.0.0 .exe
 + ASI Script Loader
-+ Fastman92s Limit Adjuster
++ Fastman92s Limit Adjuster (Optional)
 + Modloader
