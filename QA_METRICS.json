@@ -1,0 +1,155 @@
+{
+  "version": "0.10.0",
+  "test_runner": "python -m unittest discover -s tests -q",
+  "regression_tests": {
+    "passed": 175,
+    "failed": 0,
+    "source": "Tests run from the extracted final archive",
+    "duration_seconds": 92.464
+  },
+  "full_world_builds": [
+    {
+      "seed": 105839204,
+      "models": 139,
+      "grid_tiles": 144,
+      "buildings": 1377,
+      "neighborhoods": {
+        "middle_class": 151,
+        "residential": 177,
+        "industrial": 124,
+        "ghetto": 251,
+        "slum": 189,
+        "commercial": 326,
+        "high_class": 158
+      },
+      "conditions": {
+        "maintained": 670,
+        "weathered": 519,
+        "neglected": 138,
+        "restored": 49
+      },
+      "styles": {
+        "middle_class": 239,
+        "residential": 220,
+        "duplex": 63,
+        "industrial": 124,
+        "worn_house": 244,
+        "shack": 114,
+        "midrise": 149,
+        "commercial": 160,
+        "tower": 17,
+        "mansion": 46
+      },
+      "dwelling_units": 989,
+      "town_tiles": {
+        "town": 1,
+        "suburban": 9,
+        "rural": 17
+      },
+      "maximum_render_vertices": 27202,
+      "native_vehicle_nodes_added": 925,
+      "native_car_links_added": 1200,
+      "native_files": [
+        "nodes12.dat",
+        "nodes13.dat",
+        "nodes14.dat",
+        "nodes15.dat",
+        "nodes20.dat",
+        "nodes21.dat",
+        "nodes22.dat",
+        "nodes23.dat",
+        "nodes28.dat",
+        "nodes29.dat",
+        "nodes30.dat",
+        "nodes31.dat",
+        "nodes4.dat",
+        "nodes5.dat",
+        "nodes6.dat",
+        "nodes7.dat"
+      ],
+      "water_counts": {
+        "quads": 300,
+        "triangles": 6,
+        "vertices": 984
+      },
+      "water_grid_step": 128,
+      "native_water_source_sha256": "1562bc86766ce595d7513f3ca3ae3fc4147b574c8c4e703fe6a76678507969bf",
+      "train_paths": {
+        "tracks.dat": "2684452028150e70928337d2beaaf49f9b1c5a5568f2a179204504c3948521ed"
+      },
+      "mission_regions": 25,
+      "generation_seconds": 193.89,
+      "validation_environment": "Synthetic map/model/native-path fixtures plus user-supplied native SA water.dat; no GTA runtime",
+      "radar_tiles": 36,
+      "package_files": 204
+    },
+    {
+      "seed": 841492811,
+      "models": 139,
+      "grid_tiles": 144,
+      "buildings": 1378,
+      "neighborhoods": {
+        "industrial": 85,
+        "ghetto": 210,
+        "residential": 339,
+        "middle_class": 364,
+        "high_class": 64,
+        "commercial": 264,
+        "slum": 51
+      },
+      "conditions": {
+        "maintained": 793,
+        "weathered": 502,
+        "neglected": 52,
+        "restored": 30
+      },
+      "styles": {
+        "industrial": 85,
+        "worn_house": 155,
+        "residential": 347,
+        "middle_class": 341,
+        "duplex": 129,
+        "mansion": 22,
+        "midrise": 163,
+        "commercial": 75,
+        "shack": 34,
+        "tower": 26
+      },
+      "dwelling_units": 1157,
+      "town_tiles": {
+        "town": 2,
+        "suburban": 11,
+        "rural": 13
+      },
+      "maximum_render_vertices": 27158,
+      "native_vehicle_nodes_added": 45,
+      "native_car_links_added": 53,
+      "native_files": [
+        "nodes12.dat",
+        "nodes4.dat",
+        "nodes5.dat"
+      ],
+      "water_counts": {
+        "quads": 299,
+        "triangles": 6,
+        "vertices": 983
+      },
+      "water_grid_step": 192,
+      "native_water_source_sha256": "1562bc86766ce595d7513f3ca3ae3fc4147b574c8c4e703fe6a76678507969bf",
+      "train_paths": {
+        "tracks.dat": "2684452028150e70928337d2beaaf49f9b1c5a5568f2a179204504c3948521ed"
+      },
+      "mission_regions": 25,
+      "generation_seconds": 164.84,
+      "validation_environment": "Synthetic map/model/native-path fixtures plus user-supplied native SA water.dat; no GTA runtime"
+    }
+  ],
+  "runtime_validation": {
+    "GTA": false,
+    "Windows_executable": false,
+    "mission_playthrough": false,
+    "train_playthrough": false
+  },
+  "scope": "Native format, procedural mesh, source preservation and packaging validation; runtime certification is outstanding.",
+  "full_world_build_scope": "Full-grid smoke runs against synthetic model/native-path fixtures and supplied native SA water contents; counts depend on installed source assets."
+}
